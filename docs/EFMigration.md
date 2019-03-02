@@ -13,7 +13,6 @@ Update-Database -context AdminDbContext
 Install following NuGet package:
 
 ```
-Npgsql.EntityFrameworkCore.PostgreSQL
 Npgsql.EntityFrameworkCore.PostgreSQL.Design
 ```
 
@@ -34,7 +33,6 @@ and change  `UseSqlServer` to `UseNpgsql`.
 Install following NuGet package:
 
 ```
-Microsoft.EntityFrameworkCore.Sqlite
 Microsoft.EntityFrameworkCore.Sqlite.Design
 ```
 
@@ -54,7 +52,6 @@ and change  `UseSqlServer` to `UseSqlite`.
 Install the following NuGet package:
 ```
 Pomelo.EntityFrameworkCore.MySql
-Pomelo.EntityFrameworkCore.MySql.Design
 ```
 
 Find `RegisterDbContexts` function in `Helpers\StartupHelpers.cs`
